@@ -5,6 +5,8 @@ To make the setup process simpler I made a wrapper plugin for [DocPad](http://do
 
 The plugin includes local copies of slightly customised **aloha.js** and **Modernizr**, **require.js**, **jquery**, **jquery-migrate**, and **aloha.css** but other than **aloha.js** you can set the paths to your own files (if you have any already using) in **docpad.coffee** plugins setting.
 
+This is very basic wrapper so it may not be suitable to your use but, at least, hope you can find anything that can help you in the source codes.
+
 ## Setup
 
 The plugin is using the cdn version of aloha.css but if you really want to and are willing to customize aloha style then you can set the path to the stylesheet in the setting as well.
@@ -15,9 +17,6 @@ The plugin is using the cdn version of aloha.css but if you really want to and a
     		requirejs: '/path/to/require.js'
     		jquery: '/path/to/jquery.js'
     		alohacss: '/path/to/aloha.css'
-
-This is very basic wrapper so it may not be suitable to your use but, at least, hope you can find anything that can help you in the source codes.
-
 
 ## Hot to use
 
