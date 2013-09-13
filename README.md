@@ -7,7 +7,7 @@ This is very basic wrapper so it may not be suitable to your use but, at least, 
 
 ## Setup
 
-The plugin includes local copies of slightly modified **aloha.js** and **Modernizr**, **require.js**, **jquery**, **jquery-migrate**, and **aloha.css** but other than **aloha.js** you can set the paths to your own files (if you have any already using) in **docpad.coffee** plugins setting.
+The plugin includes local copies of slightly modified **aloha.js** and **Modernizr**, and paths to the latest online versions of **require.js**, **jquery**, **jquery-migrate**, and **aloha.css** but other than **aloha.js** you can set the paths to your own files (if you have any already using) in **docpad.coffee** plugins setting.
 
     plugins:
     	aloha:
@@ -40,10 +40,10 @@ This plugin uses `.editable` as default selector to attach Aloha editor but if y
 		aloha:
 			selector: '.yourselector'
 
-## Hot to use
+## How to use
 
 Use getBlock("styles") and getBlock("scripts") on your layout to add your own css files and javascripts and the plugin will automatically attach related files.
-The below is an example in JADE template
+The below is an example in Jade template
 
     !!! 5
     html
