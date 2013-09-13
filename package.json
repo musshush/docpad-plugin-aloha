@@ -1,0 +1,33 @@
+{
+  "name": "docpad-plugin-aloha",
+  "version": "2.0.0",
+  "description": "Aloha Editor wrapper plugin for DocPad",
+  "homepage": "https://github.com/musshush/docpad-plugin-aloha",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "aloha",
+    "html5",
+    "wysiwyg",
+    "editor"
+  ],
+  "author": "Haro Lee <hi.haro@gmail.com> (https://github.com/musshush)",
+  "maintainers": [
+    "Haro Lee <hi.haro@gmail.com> (https://github.com/musshush)"
+  ],
+  "contributors": [
+    "Haro Lee <hi.haro@gmail.com> (https://github.com/musshush)"
+  ],
+  "bugs": {
+    "url": "https://github.com/musshush/docpad-plugin-aloha/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/musshush/docpad-plugin-aloha.git"
+  },
+  "engines": {
+    "node": ">=0.8",
+    "docpad": ">=6"
+  },
+  "main": "./src/aloha.plugin.coffee"
+}
